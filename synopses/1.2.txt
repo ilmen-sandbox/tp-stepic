@@ -44,5 +44,57 @@ MIME - типы
     Динамические - генерируется на лету в application server по запросу пользователя
     
     
+URL (URI)
+------------------------------------------------------------------------------
+  URL - подмножество URI
+  URI - Unified Resource Identificator
+  URL - Unified Resource Locator
+  
+  Если у документа нет URL, то его невозможно получить из WWW.
+  
+  Состав абсолютного URL:
+    http://server.org:8080/path/doc.html?a=1&b=2#part1
+      http - протокол
+      :// - разделитель
+      server.org - DNS или IP
+      8080 - TCP порт
+      /path/doc.html - путь к файлу
+      a=1&b=2 - QUERY-string
+      part1 - якорь, позиция в документе, откуда начать просмотр
+  Schemeless
+    //server.org/1.html
+    URL без указания протокола для абстрагирования от использования HTTP И HTTPS
+    Если документ отдается по HTTPS, то все вложенные документы должны передаваться по HTTPS
+  Отновительные URL
+    /another/page.html?a=1 - относительный (в пределах домена, относительно протокола и домена текущего сайта)
+    pictures/1.png - относительный (от URL текущего документа)
+    ?a=1&b=2 - относительный (от URL текущего документа)
+  Якорь, относительный URL в текущем документе (без перегрузки?)
+    #part2
+
+  Правила разрешения URL
+    Пусть дан основной документ: https://site.com/path/page.html
+    Тогда относительные URL строятся так:
+      http://wikipedia.org  = http://wikipedia.org
+      //cdn.org/jquery.js   = https://cdn.org/jquery.js
+      /admin/index.html     = https://site.com/admin/index.html
+      another.html          = https://site.com/path/another.html
+      ?full=1               = https://site.com/path/page.html?full=1
+      #chapter2             = https://site.com/path/page.html#chaprer2
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
