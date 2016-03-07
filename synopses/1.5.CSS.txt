@@ -242,7 +242,3 @@ CSS СЕЛЕКТОРЫ
       div.article {
         box-sizing: border-box;
       }
-  
-BOOTSTRAP
-  Bootstrap - готовая библиотека стилей (CSS-фраймворк) от компании Twitter.
-  Позволяет разрабатывать приемлемый дизайн при базовых знаниях CSS.
