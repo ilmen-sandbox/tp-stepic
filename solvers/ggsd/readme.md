@@ -3,7 +3,7 @@
 ##Usage
       
 
-    python _get_git_sub_dir.py path/to/sub/dir <RECURSIVE>
+    python ggsb.py path/to/sub/dir <RECURSIVE>
     
 <RECURSIVE> is a boolen `True` or `False`. Default is `True`.
 
@@ -12,8 +12,8 @@
 
 Lets download the docs from twitter bootstrap https://github.com/twbs/bootstrap/tree/master/docs
 
-    python _get_git_sub_dir.py twbs/bootstrap/docs
+    python ggsb.py twbs/bootstrap/docs
 
 If we don't want it to be recursive
 
-    python _get_git_sub_dir.py twbs/bootstrap/docs False
+    python ggsb.py twbs/bootstrap/docs False
