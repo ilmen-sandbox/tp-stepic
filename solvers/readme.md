@@ -9,8 +9,10 @@
 **# Except this file**  
 **!.gitignore**  
 
-Судя из комментариев, при сдачи решения стоит удалить файл *default* из папки */etc/nginx/sites-enabled*.  
-И создал новый, содержащий текст:  
+Судя из комментариев, при сдачи решения стоит удалить файл *default.conf* из папки */etc/nginx/sites-enabled*  
+**sudo rm -rf /etc/nginx/sites-enabled/default**  
+для того, чтобы избавиться от ошибки: ***Failed test #4. http://10.42.187.67/uploads/test.js didn't returned 200***  
+После удаления создаем новый файл *default.conf*, содержащий текст:  
 **server**  
 **{**  
      **listen 80;**  
