@@ -1,4 +1,4 @@
-[Clone code from **https://github.com/mfbx9da4/git-sub-dir** repository] (https://github.com/mfbx9da4/git-sub-dir)
+[Cloned from **https://github.com/mfbx9da4/git-sub-dir** repository] (https://github.com/mfbx9da4/git-sub-dir)
 
 ##Usage
       
