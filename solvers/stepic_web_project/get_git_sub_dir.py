@@ -1,3 +1,5 @@
+# Cloned from https://github.com/mfbx9da4/git-sub-dir
+
 import base64
 import json
 import urllib2
