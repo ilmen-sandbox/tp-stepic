@@ -1,12 +1,12 @@
 # Переменные в конфигурационном файле Django
 
-* ROOT_URLCONF  
+* **ROOT_URLCONF**  
   Путь к файлу urls.py (Router), с которого начинает работу маршрутизатор Django (например, "project.urls")
-* DATABASES  
+* **DATABASES**  
   Список соединений с базами данных
-* TEMPLATE_DIRS  
+* **TEMPLATE_DIRS**  
   Папка с шаблонами
-* INSTALLED_APPS  
+* **INSTALLED_APPS**  
   Список всех Django-приложений, используемый в проекте (т.е. проект не обязательно должен храниться в папке с проектом)
-* STATIC_ROOT  
+* **STATIC_ROOT**  
   Указывает директорию к статическим файлам
